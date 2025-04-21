@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+     <!--INTRODUCTION-->
+    <nav id="desktop-nav">
+      <div class="logo">Eann Baraka</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Eann Baraka</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Eann Baraka profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Eann Baraka</h1>
+        <p class="section__text__p2">Aspiring Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/EannBarakaCV.pdf')"
+          >
+            Download CV
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href= 'https://www.linkedin.com/in/eann-baraka-0992452bb/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/barakacod3rr'"
+          />
+        </div>
+      </div>
+    </section>
+     <!--ABOUT ME-->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <!--
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />-->
+              <h3>Education</h3>
+              <p>Strathmore University: </br>Diploma in Business and Information Technology (2021-2022)<br />Bachelors Degree in Business and Information technology (2022-2025)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm an aspiring Data Analyst with a passion for turning raw data into actionable insights. Skilled in tools like SQL, Power BI and Python, I enjoy solving problems and making data-driven decisions. I also have experience in front-end development using HTML, CSS, Bootstrap and JavaScript, allowing me to create clean and interactive user interfaces. I'm a quick learner, always eager to grow and excited to contribute to impactful projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--EXPERIENCE-->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ms Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!--SOFT SKILLS
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Attention to detail</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!--PROJECTS-->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <!--blood donation system-->
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Blood Donation System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/barakacod3rr/Blood-Donation-System/tree/master'">
+                Github
+              </button>
+            </div>
+          </div>
+          <!--maze exploration system-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Maze Exploration System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/barakacod3rr/MazeExplorer'">
+                Github
+              </button>
+            </div>
+          </div>
+          <!--create a tee-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Create A Tee</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/barakacod3rr/CreateaTee_refurb/tree/master'">
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://createatee.co.ke/'">
+                Website Link
+              </button>
+            </div>
+          </div>
+          <!--Productanalysis-->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 2"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Product Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/barakacod3rr/Product-Sales-Analysis'">
+                Github
+              </button>
+            </div>
+          </div>
+        <!--HR Analysis
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Product Analysis</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/barakacod3rr/Product-Sales-Analysis'">
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!--CONTACT-->
+    <footer class="main-footer">
+      <div class="footer-links">
+          <!-- Email Link -->
+          <a href="mailto:eannbarakam@gmail.com" class="footer-link">
+              <span class="icon">✉️</span> Email
+          </a>
+          
+          <!-- LinkedIn Link -->
+          <a href="https://www.linkedin.com/in/eann-baraka-0992452bb/" target="_blank" class="footer-link">
+              <span class="icon">🔗</span> LinkedIn
+          </a>
+          
+          <!-- GitHub Link -->
+          <a href="https://github.com/barakacod3rr" target="_blank" class="footer-link">
+              <span class="icon">⚫</span> GitHub
+          </a>
+      </div>
+      
+      <p class="copyright">
+          © 2025 Eann Baraka Murimi. All rights reserved.
+      </p>
+  </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
